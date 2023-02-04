@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acesso Denegado</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Enpoints</title>
 </head>
-<body>
-    <h1>Acceso Denegado</h1>
+<body class="container">
+
+    <ul>
+
+        <li>
+            <h3>- Obtiene todos los usuarios</h3>
+            <p><span class="gets">GET</span>localhost:4000/api/users</p>
+        </li>
+
+        <li>
+            <h3>- Obtiene un usuario</h3>
+            <p><span class="gets">GET</span>localhost:4000/api/users</p>
+            <p class="pre">Params: { 
+                "id" : "id",
+            }</p>
+        </li>
+
+        <li>
+            <h3>- Crea un usuario</h3>
+            <p><span class="post">POST</span>localhost:4000/api/users</p>
+            <p class="pre">{ "name" : "nombre",
+                "email" : "email",}</p>
+        </li>
+        <li>
+
+            <h3>- Actualiza un usuario</h3>
+            <p><span class="post">PUT</span>localhost:4000/api/users</p>
+            <p class="pre">Body: { 
+                "name" : "nombre",
+                "email" : "email",
+            }</p>
+        </li>
+        <li>
+
+            <h3>- Elimina un usuario</h3>
+            <p><span class="delete">DELETE</span>localhost:4000/api/users</p>
+            <p class="pre">Params: { 
+                "id" : "id",
+            }</p>
+
+        </li>
+    </ul>
+
 </body>
 </html>
