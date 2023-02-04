@@ -1,5 +1,8 @@
-Manual de ayuda
-===
+# TS-REST-SERVER
+
+### Descripción:
+Crea, elimina, actualiza, lista y filtra usuarios de una base de datos. Con el uso de TypeScript, Express, Sequelize, MySQL y Postman.
+
 
 Documentación:
 ```
